@@ -1,6 +1,7 @@
 import Button from "../components/common/button/Button";
 import Icon from "../components/common/button/Icon";
 import Input from  "../components/common/button/Input";
+
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import styled from "styled-components";
 
