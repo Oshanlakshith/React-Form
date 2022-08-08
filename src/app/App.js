@@ -1,14 +1,11 @@
+import CustomerForm from "../pages/CustomerForm";
 import LogingForm from "../pages/LogingForm";
-import SecoundForm from "../pages/secoundForm";
 function App() {
-
     return (
         <div>
-        <div>
-            <LogingForm/>
+            <CustomerForm/>
         </div>
-    <SecoundForm/>
-        </div>
+
 );
 }
 export default App;

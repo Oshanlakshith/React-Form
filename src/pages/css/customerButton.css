@@ -1,0 +1,38 @@
+
+.Save{
+    background: linear-gradient(to right, #14163c 0%, #5055d2 79%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 18%;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+.Delete{
+    background: linear-gradient(to right, #14163c 0%, #a10847 79%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 18%;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+.Update{
+    background: linear-gradient(to right, #14163c 0%, #33c761 79%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 18%;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+.Buttonalign {
+    position: relative;
+    left: 14px;
+}
