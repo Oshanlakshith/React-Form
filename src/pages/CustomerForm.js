@@ -1,9 +1,11 @@
 import {Box, Grid, Paper, TableBody, TableCell, TableHead, TableRow, TextField} from "@mui/material";
 import Table from '@mui/material/Table';
 import './css/customer.css';
-import './css/customerButton.css'
 import * as React from 'react';
+import '../depend/ButtonCus.js';
+import '../pages/css/customerButton.css'
 import TableContainer from "@mui/material/TableContainer";
+import Button from "../depend/ButtonCus";
 
 function CustomerForm() {
 
@@ -80,12 +82,7 @@ function CustomerForm() {
                         />
                     </div>
                     <div className='Buttonalign'>
-                        <button className='Save'>Save
-                        </button>
-                        <button className='Delete'>Delete
-                        </button>
-                        <button className='Update'>Update
-                        </button>
+                        <Button/>
                     </div>
                 </Box>
             </div>

@@ -1,11 +1,12 @@
-import CustomerForm from "../pages/CustomerForm";
-import LogingForm from "../pages/LogingForm";
+import DashBoardForm from "../pages/DashBoardForm";
+
 function App() {
     return (
         <div>
-            <CustomerForm/>
+            <DashBoardForm/>
         </div>
 
-);
+    );
 }
+
 export default App;
