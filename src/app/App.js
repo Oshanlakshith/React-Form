@@ -1,9 +1,9 @@
-import DashBoardForm from "../pages/DashBoardForm";
+import CustomerForm from "../pages/CustomerForm";
 
 function App() {
     return (
         <div>
-            <DashBoardForm/>
+            <CustomerForm/>
         </div>
 
     );
